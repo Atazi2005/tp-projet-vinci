@@ -1,0 +1,95 @@
+/* Logo */
+.logo {
+    height: 50px;
+    width: auto; /* Assure que l'image garde son ratio */
+}
+
+/* Section Hero */
+.hero {
+    background-color: #f8f9fa; /* Fond gris clair */
+    padding: 50px 0;
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    height: 100vh; /* Section prend toute la hauteur de l'écran */
+}
+
+/* Conteneur avec image de fond */
+.hero-content {
+    background: url('img/1721743367.jpeg') no-repeat center center/cover; /* Image en fond */
+    border-radius: 10px; /* Arrondi des coins (optionnel) */
+    width: 80%; /* Ajuste la largeur selon la taille de l'écran */
+    max-width: 900px; /* Largeur maximale */
+    height: 400px; /* Hauteur fixe */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre autour de l'image */
+    display: flex;
+    align-items: center; /* Centrer le contenu à l'intérieur */
+    justify-content: center; /* Centrer le contenu à l'intérieur */
+    text-align: center;
+}
+
+/* Titre et texte dans la section Hero */
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Cartes des informations */
+.card {
+    background: #b7bd00;
+    color: black;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+  background-color: #2d9506;
+
+}
+
+/* Navigation */
+nav {
+    color: orange;
+}
+
+.btn-orange {
+    color: white;
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-orange:hover {
+    background-color: #d87e00;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    .hero-content {
+        width: 90%;
+        height: 300px; /* Ajuster la hauteur sur petits écrans */
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
+.bann_down{
+
+  background-color: orange;
+}
